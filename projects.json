@@ -1,0 +1,50 @@
+[
+    {
+        "image": "Day 1/blog/public/logo512.png",
+        "title": "React Blog Frontend - Day 1",
+        "description": "Frontend application for a blogging platform built with React, featuring dynamic routing, modular components, and seamless integration with backend services.",
+        "link": "Day 1/frontend.html",
+        "category": "react",
+        "keywords": ["react", "blog", "frontend", "Routing", "Modular", "Component", "fullstack"]
+    },
+    {
+        "image": "Day 1/blog/public/logo512.png",
+        "title": "React Blog Backend - Day 2",
+        "description": "Backend services for a blogging platform built with React, providing robust APIs, user authentication, and data management for a seamless blogging experience.",
+        "link": "#project2",
+        "category": "react",
+        "keywords": ["react", "blog", "Backend", "Routing", "Modular", "Component", "fullstack"]
+    },
+    {
+        "image": "https://via.placeholder.com/150/FF0055/FFFFFF?text=Project+3",
+        "title": "Blog Database - MongoDB - Day 3",
+        "description": "Database integration for a blogging platform using MongoDB, enabling efficient data storage, retrieval, and management for blog posts, user profiles, and comments.",
+        "link": "#project3",
+        "category": "db",
+        "keywords": ["database", "mongodb", "blog", "data", "storage", "management", "js"]
+    },
+    {
+        "image": "https://via.placeholder.com/150/00FF88/FFFFFF?text=Project+4",
+        "title": "Connecting Front end and Back end - Day 4",
+        "description": "Connecting the frontend and backend of a blogging platform, ensuring seamless communication between user interfaces and server-side functionalities for an integrated user experience.",
+        "link": "#project4",
+        "category": "fullstack",
+        "keywords": ["bridging", "frontend", "backend", "integration", "communication", "fullstack", "learn"]
+    },
+    {
+        "image": "https://via.placeholder.com/150/00FF88/FFFFFF?text=Project+4",
+        "title": "Authentication with Firebase - Day 5",
+        "description": "User Authentication serves the Major requirement for the blogging platform, Details of that covered.",
+        "link": "#project4",
+        "category": "Authentication",
+        "keywords": ["Authentication", "Firebase", "security", "user", "login", "fullstack", "learn"]
+    },
+    {
+        "image": "https://via.placeholder.com/150/00FF88/FFFFFF?text=Project+4",
+        "title": "Hosting Fullstack App - Day 6",
+        "description": "Hosting the Fullstack Application on the internet, Details of that covered.",
+        "link": "#project4",
+        "category": "Hosting",
+        "keywords": ["Hosting", "Netlify", "Vercel", "fullstack", "learn"]
+    }
+]

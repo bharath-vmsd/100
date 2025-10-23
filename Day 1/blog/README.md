@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App].
 
 ## Available Scripts
 
@@ -14,10 +14,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
@@ -27,44 +23,45 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# Project: Blog
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+This project is a simple blog application built with React. It allows users to view a list of articles, read individual articles, and navigate between different pages.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Tech Stack
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+*   **React:** A JavaScript library for building user interfaces.
+*   **React Router:** For handling client-side routing.
+*   **Create React App:** The project was bootstrapped with Create React App.
 
-## Learn More
+## Low-Level Design
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+The application is structured into several components:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+*   **`App.js`:** The main component that sets up the routing for the application.
+*   **`NavBar.js`:** A navigation bar that is displayed on all pages.
+*   **`HomePage.js`:** The landing page of the application.
+*   **`AboutPage.js`:** A page that provides information about the blog.
+*   **`ArticleListPage.js`:** A page that displays a list of all articles.
+*   **`ArticlePage.js`:** A page that displays a single article.
+*   **`NotFoundPage.js`:** A page that is displayed when a user navigates to a non-existent route.
 
-### Code Splitting
+The application uses `react-router-dom` to handle routing. The routes are defined in `App.js`, and each route is mapped to a specific component.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Code Practices
 
-### Analyzing the Bundle Size
+*   **Component-Based Architecture:** The application is built using a component-based architecture, which makes it easy to reuse and maintain code.
+*   **File Organization:** The code is organized into different folders based on functionality. For example, all the pages are in the `src/pages` directory, and all the reusable components are in the `src/components` directory.
+*   **CSS Modules:** The application uses CSS Modules to scope CSS to individual components, which helps to avoid CSS conflicts.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## File Overview
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+*   **`public/`:** This directory contains the public assets of the application, such as `index.html` and `favicon.ico`.
+*   **`src/`:** This directory contains the source code of the application.
+    *   **`components/`:** This directory contains reusable components.
+    *   **`pages/`:** This directory contains the different pages of the application.
+    *   **`App.js`:** The main component of the application.
+    *   **`index.js`:** The entry point of the application.
+    *   **`NavBar.js`:** The navigation bar component.
+*   **`package.json`:** This file contains the project's dependencies and scripts.

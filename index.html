@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects Showcase</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="background-grid"></div>
+    
+    <main class="container">
+        <div class="header">
+            <h1>Project Showcase</h1>
+            <p>100 Day Code Challenge</p>
+        </div>
+
+        <div class="controls">
+            <div class="search-bar">
+                <input type="text" id="searchInput" placeholder="Search projects...">
+            </div>
+            <div class="filter-tags">
+                <div class="tag active" data-filter="all">All</div>
+                <div class="tag" data-filter="react">React</div>
+                <div class="tag" data-filter="js">JS</div>
+                <div class="tag" data-filter="learn">Learn</div>
+                <div class="tag" data-filter="python">Py</div>
+                <div class="tag" data-filter="python">3D</div>
+            </div>
+        </div>
+
+        <div class="projects-grid" id="projectsGrid">
+            <!-- Project cards will be dynamically loaded here by JavaScript -->
+        </div>
+
+        <div class="no-results" id="noResults" style="display: none;">
+            No projects found matching your search.
+        </div>
+
+        <div class="load-more" id="loadMore" style="display: none;">
+            <button class="load-more-btn">Load More Projects</button>
+        </div>
+    </main>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
