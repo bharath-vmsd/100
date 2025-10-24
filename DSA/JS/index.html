@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DSA Mastery - JavaScript</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="bg-grid"></div>
+    
+    <div class="container">
+        <div class="header">
+            <h1>DSA MASTERY</h1>
+            <p>Master Data Structures & Algorithms with JavaScript</p>
+        </div>
+
+        <div class="stats-dashboard">
+            <div class="stat-card">
+                <div class="stat-label">Current Streak</div>
+                <div class="stat-value"><span class="streak-flame">🔥</span> <span id="streak">0</span></div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Completed Topics</div>
+                <div class="stat-value"><span id="completed">0</span>/14</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Total Progress</div>
+                <div class="stat-value"><span id="totalProgress">0</span>%</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">XP Earned</div>
+                <div class="stat-value"><span id="xp">0</span></div>
+            </div>
+        </div>
+
+        <div class="overall-progress">
+            <div class="progress-header">
+                <h2>Journey Progress</h2>
+                <span id="progressText">0% Complete</span>
+            </div>
+            <div class="progress-bar-container">
+                <div class="progress-bar" id="overallProgress" style="width: 0%"></div>
+            </div>
+        </div>
+
+        <div class="curriculum" id="curriculum"></div>
+    </div>
+
+    <script type="module" src="app.js"></script>
+</body>
+</html>
